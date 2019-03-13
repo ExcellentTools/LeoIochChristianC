@@ -1,0 +1,152 @@
+/* Sticky footer */
+html, body {
+  margin: 0;
+  height: 100%;
+  
+  /*background: #ebf442; */
+}
+
+/* BLOCK */
+#WRAPPER{
+	position:relative;
+	width:100%;	min-height: 100%;
+	margin:0; padding:0; 
+	
+	/*background: #000000;*/
+}
+
+/* Översta delen av sidan som innehåller logo, meny,slogan osv ... */
+#HEADER{
+	position:relative;
+	margin:0; padding: 0;
+	clear:both; /* inget till höger eller vänster om */
+	background: #EFEFEF;
+}
+/* Översta delen av sidan som är lika stor som CONTENTS och som ligger centrerad */
+#BANNER{
+	position:relative;
+	margin:0 auto; /* centrerad */
+	padding:10px;
+	max-width:960px;
+	height:100%;
+	background: #EFEFEF;
+}
+
+
+#MENUHEADER{
+	position:relative;
+	margin:0; padding: 0;
+	clear:both; /* inget till höger eller vänster om */
+	background: #dddddd;
+}
+
+
+#MENU{
+	position:relative;
+	padding: 0;	margin:0 auto; 
+	max-width:960px;
+	clear:both; /* inget till höger eller vänster om */
+	height:32px;
+	background: #dddddd;
+}
+
+#MENU a {
+	text-decoration:none;
+	line-height:32px;
+	
+	padding-left:16px;
+	padding-right:16px;
+	padding-top:7px;
+	padding-bottom:8px;
+	color:#D76512;
+
+	background: #dddddd;
+}
+
+#MENU a:hover {font-weight:normal;color:#FFFFFF;background-color:#FFB31A;}
+
+
+#CONTENTS{
+	position:relative;
+	margin:0 auto; /* centrerad */
+	padding:10px;
+	border:0;
+	height:100%;
+	width:100%;
+	max-width:960px; /* inte större än så här */
+	top:0px; /* Avstånd mot överliggande del av siten */
+	/*background: #9933AA;*/
+}
+
+/* Nedersta delen av sidan som innehåller information och annat */
+#FOOTER{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: #EFEFEF;
+}
+
+/* Nedersta delen av sidan som är lika stor som CONTENTS och som också ligger centrerad */
+#FOOTNOTE{
+	position:relative;
+	margin:0 auto; /* centrerad */
+	padding:10px;
+	max-width:960px;
+}
+
+/* AVDELARE */
+/* BlockHalf osv - padding och marginaler anpassade till att läggas över varandra */
+div.blockHalf,div.block1Third,div.block2Third,div.block1Fourth{
+	position:relative; float:left;
+	margin:0;
+	margin-right:18px; /* Högermarginal */
+	padding:0;
+	padding-top:4px; /* Marginal mot ovanliggande div */
+}
+
+div.block1Fourth{width:220px;}
+div.block1Third{width:305px;}
+div.blockHalf{width:450px;}
+div.block2Third{width:600px;}
+
+.ruta  {
+	
+	
+	
+}
+/* Övriga element */ 
+
+
+
+
+/* FONT & TEXT */ 
+/* Övergripande styles */
+h1,h2,h3,h4,p,a{
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	font-family:Candara, Verdana, Arial;
+	color:#515151;
+}
+
+/* Specifika styles */
+h1,h2,h3,h4{
+	font-weight:bold; 
+	color:#D76512;	
+}
+
+p, a { line-height:140%; font-size:14px; padding-top:0; }
+
+a{
+	color:#FFB31A;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+h1{ font-size:28px;	padding-top:14px; }
+h2{ font-size:22px; padding-top:20px; }
+h3{ font-size:16px; padding-top:14px; }
+h4{ font-size:14px; padding-top:12px; }
+
+
