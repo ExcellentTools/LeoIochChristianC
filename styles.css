@@ -11,7 +11,7 @@ h1,h2,h3,h4,p,a{
 /* Specifika styles */
 h1,h2,h3,h4{
 	font-weight:bold; 
-	color:rgb(5, 7, 141);	
+	color:#D76512;		
 }
 
 p, a { line-height:140%; font-size:14px; padding-top:0; }
@@ -86,7 +86,7 @@ html, body {
 	padding-right:16px;
 	padding-top:7px;
 	padding-bottom:8px;
-	color:rgb(5, 7, 141);
+	color: #D76512;
 }
 
 #MENU a:hover {font-weight:normal;color:#FFFFFF;background-color:rgb(26, 152, 255);}
