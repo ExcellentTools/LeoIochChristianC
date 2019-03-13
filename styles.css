@@ -120,15 +120,13 @@ div.block2Third{width:600px;}
 #omoss{
     position:relative; 
     float:left;
-
+    width:450px;
 }
 
 #vigor{
     position:relative; 
     float:left;
-
-
-
+    width:450px;
 }
 /* FONT & TEXT */ 
 /* Övergripande styles */
