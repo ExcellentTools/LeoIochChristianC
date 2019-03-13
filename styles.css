@@ -27,14 +27,10 @@ h2{ font-size:22px; padding-top:20px; }
 h3{ font-size:16px; padding-top:14px; }
 h4{ font-size:14px; padding-top:12px; }
 
-
-
 /* Sticky footer */
 html, body {
   margin: 0;
-  height: 100%;
-  
-  /*background: #ebf442; */
+  min-height: 100%;
 }
 
 /* BLOCK */
@@ -42,8 +38,6 @@ html, body {
 	position:relative;
 	width:100%;	min-height: 100%;
 	margin:0; padding:0; 
-	
-	/*background: #000000;*/
 }
 
 /* Översta delen av sidan som innehåller logo, meny,slogan osv ... */
@@ -51,7 +45,7 @@ html, body {
 	position:relative;
 	margin:0; padding: 0;
 	clear:both; /* inget till höger eller vänster om */
-	height:100%;
+	height:80px;
 	background: #EFEFEF;
 }
 /* Översta delen av sidan som är lika stor som CONTENTS och som ligger centrerad */
@@ -64,12 +58,13 @@ html, body {
 	background: #EFEFEF;
 }
 
-
 #MENUHEADER{
 	position:relative;
 	margin:0; padding: 0;
 	clear:both; /* inget till höger eller vänster om */
-	background: #dddddd;
+	background: #DDDDDD;
+	border-top: 1px solid #919191;
+	border-bottom: 1px solid #919191;
 }
 
 
@@ -80,6 +75,7 @@ html, body {
 	clear:both; /* inget till höger eller vänster om */
 	height:32px;
 	background: #DDDDDD;
+
 }
 
 #MENU a {
@@ -98,21 +94,22 @@ html, body {
 #CONTENTS{
 	position:relative;
 	margin:0 auto; /* centrerad */
+	display: block;
+	overflow: auto;
 	padding:10px;
-	border:0;
-	height:100%;
-	width:100%;
 	max-width:960px; /* inte större än så här */
-	top:0px; /* Avstånd mot överliggande del av siten */
-	/*background: #9933AA;*/
 }
 
 /* Nedersta delen av sidan som innehåller information och annat */
 #FOOTER{
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	display: block;
+	overflow: auto;
+	margin-top:16px; /* avstånd till övre delen av siten */
+	bottom:0;
 	width: 100%;
 	height: 80px;
+	border-top: 1px solid #919191;
 	background: #EFEFEF;
 }
 
@@ -162,3 +159,12 @@ html, body {
 }
 
 
+.Site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+  }
+  
+  .Site-content {
+	flex: 1;
+  }
