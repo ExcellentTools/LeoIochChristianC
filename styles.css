@@ -94,20 +94,13 @@ html, body {
 	max-width:960px;
 }
 
-/* AVDELARE */
-/* BlockHalf osv - padding och marginaler anpassade till att läggas över varandra */
-div.blockHalf,div.block1Third,div.block2Third,div.block1Fourth{
-	position:relative; float:left;
-	margin:0;
-	margin-right:18px; /* Högermarginal */
-	padding:0;
-	padding-top:4px; /* Marginal mot ovanliggande div */
-}
-
+/* Old sins - delete when done
 div.block1Fourth{width:220px;}
 div.block1Third{width:305px;}
 div.blockHalf{width:450px;}
 div.block2Third{width:600px;}
+*/
+
 
 /* Övriga element */ 
 #adress,#orgno{
@@ -120,12 +113,17 @@ div.block2Third{width:600px;}
 #omoss{
     position:relative; 
     float:left;
+    padding:0;
+    padding-right: 20px;
     width:450px;
+
 }
 
 #vigor{
     position:relative; 
     float:left;
+    padding:0;
+    padding-right: 20px;
     width:450px;
 }
 /* FONT & TEXT */ 
