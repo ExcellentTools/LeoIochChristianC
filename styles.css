@@ -14,8 +14,7 @@ h1,h2,h3,h4{
 	color:#D76512;		
 }
 
-p, a { line-height:140%; font-size:14px; padding-top:0; padding-bottom:12px; }
-
+p, a { line-height:140%; font-size:14px; padding-top:0;}
 
 a{
 	color:#FFB31A;
@@ -100,6 +99,13 @@ html, body {
 	padding:10px;
 	max-width:960px; /* inte större än så här */
 }
+
+#CONTENTS p {
+	padding-bottom:12px; 
+}
+
+
+
 
 /* Nedersta delen av sidan som innehåller information och annat */
 #FOOTER{
