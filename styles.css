@@ -122,6 +122,22 @@ html, body {
 }
 
 /* Övriga element */ 
+
+.fa {
+	padding-top: 25px;
+	font-size: 100px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #D76512;
+  }
+
+  .fa:hover {
+	opacity: 0.5;
+	color:blue;
+  }
+  
+
 #logomotto{
     position:relative;
     padding:0;
@@ -158,6 +174,7 @@ html, body {
     width:450px;
 }
 
+
 #pwbi{
 	width: 450px;
 	height: 350px;
@@ -178,11 +195,12 @@ html, body {
 	width:50%;
 }
 
-.pics {
-position: relative;
-padding-top:10px;
-clear:both;
-object-fit: none;
-width: 100%;
-height: 350px;
-}
+
+#pic2 {
+	position:relative;
+	padding-top:10px;
+	clear:both;
+	object-fit: none;
+	width: 100%;
+	height: 350px;
+	}
