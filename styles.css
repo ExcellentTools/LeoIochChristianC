@@ -113,8 +113,8 @@ div.block2Third{width:600px;}
 #omoss{
     position:relative; 
     float:left;
-    padding:0;
-    padding-right: 20px;
+    padding:0; margin:0;
+    margin-right: 26px;
     width:450px;
 
 }
@@ -122,8 +122,8 @@ div.block2Third{width:600px;}
 #vigor{
     position:relative; 
     float:left;
-    padding:0;
-    padding-right: 20px;
+    padding:0; margin:0;
+    margin-right: 26px;
     width:450px;
 }
 /* FONT & TEXT */ 
