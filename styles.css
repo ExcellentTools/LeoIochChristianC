@@ -11,7 +11,7 @@ h1,h2,h3,h4,p,a{
 /* Specifika styles */
 h1,h2,h3,h4{
 	font-weight:bold; 
-	color:#D76512;	
+	color:rgb(5, 7, 141);	
 }
 
 p, a { line-height:140%; font-size:14px; padding-top:0; }
@@ -90,10 +90,10 @@ html, body {
 	padding-right:16px;
 	padding-top:7px;
 	padding-bottom:8px;
-	color:#D76512;
+	color:rgb(5, 7, 141);
 }
 
-#MENU a:hover {font-weight:normal;color:#FFFFFF;background-color:#FFB31A;}
+#MENU a:hover {font-weight:normal;color:#FFFFFF;background-color:rgb(26, 152, 255);}
 
 #CONTENTS{
 	position:relative;
@@ -161,4 +161,11 @@ html, body {
     width:450px;
 }
 
-
+.pics {
+position: relative;
+padding-top:10px;
+clear:both;
+object-fit: none;
+width: 100%;
+height: 350px;
+}
